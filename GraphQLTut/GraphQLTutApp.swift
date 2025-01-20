@@ -11,7 +11,7 @@ import SwiftUI
 struct GraphQLTutApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StationListView()
         }
     }
 }

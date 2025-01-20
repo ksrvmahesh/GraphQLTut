@@ -6,6 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		78D41EC72D3A3BCE00D93B9F /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 78D41EC62D3A3BCE00D93B9F /* Apollo */; };
+		78D41ECA2D3A3D3800D93B9F /* apollo-ios-cli in Resources */ = {isa = PBXBuildFile; fileRef = 78D41EC92D3A3D3800D93B9F /* apollo-ios-cli */; };
+		78D41ECE2D3A3FD000D93B9F /* schema.graphqls in Resources */ = {isa = PBXBuildFile; fileRef = 78D41ECC2D3A3FD000D93B9F /* schema.graphqls */; };
+		78D41EF32D3A430A00D93B9F /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D41EF22D3A430700D93B9F /* Network.swift */; };
+		78D41EF92D3A453E00D93B9F /* apollo-codegen-config.json in Resources */ = {isa = PBXBuildFile; fileRef = 78D41EF82D3A453E00D93B9F /* apollo-codegen-config.json */; };
+		78D41EFD2D3A463400D93B9F /* StationList.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 78D41EFC2D3A462E00D93B9F /* StationList.graphql */; };
+		78D41F002D3A467600D93B9F /* GraphQLAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 78D41EFF2D3A467600D93B9F /* GraphQLAPI */; };
+		78D41F042D3A484A00D93B9F /* AuthorizationKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D41F032D3A484300D93B9F /* AuthorizationKeys.swift */; };
+		78D41F062D3A493D00D93B9F /* AuthorizationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D41F052D3A493600D93B9F /* AuthorizationInterceptor.swift */; };
+		78D41F082D3A4A7700D93B9F /* NetworkInterceptorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D41F072D3A4A7400D93B9F /* NetworkInterceptorProvider.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		78D41EA92D3A3A1100D93B9F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +40,14 @@
 		78D41E982D3A3A0F00D93B9F /* GraphQLTut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphQLTut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D41EA82D3A3A1100D93B9F /* GraphQLTutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphQLTutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D41EB22D3A3A1100D93B9F /* GraphQLTutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphQLTutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D41EC92D3A3D3800D93B9F /* apollo-ios-cli */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "apollo-ios-cli"; sourceTree = "<group>"; };
+		78D41ECC2D3A3FD000D93B9F /* schema.graphqls */ = {isa = PBXFileReference; lastKnownFileType = text; path = schema.graphqls; sourceTree = "<group>"; };
+		78D41EF22D3A430700D93B9F /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		78D41EF82D3A453E00D93B9F /* apollo-codegen-config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "apollo-codegen-config.json"; sourceTree = "<group>"; };
+		78D41EFC2D3A462E00D93B9F /* StationList.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = StationList.graphql; sourceTree = "<group>"; };
+		78D41F032D3A484300D93B9F /* AuthorizationKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationKeys.swift; sourceTree = "<group>"; };
+		78D41F052D3A493600D93B9F /* AuthorizationInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationInterceptor.swift; sourceTree = "<group>"; };
+		78D41F072D3A4A7400D93B9F /* NetworkInterceptorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterceptorProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78D41EC72D3A3BCE00D93B9F /* Apollo in Frameworks */,
+				78D41F002D3A467600D93B9F /* GraphQLAPI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +98,9 @@
 		78D41E8F2D3A3A0F00D93B9F = {
 			isa = PBXGroup;
 			children = (
+				78D41EF82D3A453E00D93B9F /* apollo-codegen-config.json */,
+				78D41ECD2D3A3FD000D93B9F /* graphql */,
+				78D41EC92D3A3D3800D93B9F /* apollo-ios-cli */,
 				78D41E9A2D3A3A0F00D93B9F /* GraphQLTut */,
 				78D41EAB2D3A3A1100D93B9F /* GraphQLTutTests */,
 				78D41EB52D3A3A1100D93B9F /* GraphQLTutUITests */,
@@ -90,6 +116,19 @@
 				78D41EB22D3A3A1100D93B9F /* GraphQLTutUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		78D41ECD2D3A3FD000D93B9F /* graphql */ = {
+			isa = PBXGroup;
+			children = (
+				78D41F032D3A484300D93B9F /* AuthorizationKeys.swift */,
+				78D41F052D3A493600D93B9F /* AuthorizationInterceptor.swift */,
+				78D41F072D3A4A7400D93B9F /* NetworkInterceptorProvider.swift */,
+				78D41EFC2D3A462E00D93B9F /* StationList.graphql */,
+				78D41EF22D3A430700D93B9F /* Network.swift */,
+				78D41ECC2D3A3FD000D93B9F /* schema.graphqls */,
+			);
+			path = graphql;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +151,8 @@
 			);
 			name = GraphQLTut;
 			packageProductDependencies = (
+				78D41EC62D3A3BCE00D93B9F /* Apollo */,
+				78D41EFF2D3A467600D93B9F /* GraphQLAPI */,
 			);
 			productName = GraphQLTut;
 			productReference = 78D41E982D3A3A0F00D93B9F /* GraphQLTut.app */;
@@ -195,6 +236,10 @@
 			);
 			mainGroup = 78D41E8F2D3A3A0F00D93B9F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				78D41EC52D3A3BCE00D93B9F /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				78D41EFE2D3A467600D93B9F /* XCLocalSwiftPackageReference "GraphQLAPI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 78D41E992D3A3A0F00D93B9F /* Products */;
 			projectDirPath = "";
@@ -212,6 +257,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78D41EF92D3A453E00D93B9F /* apollo-codegen-config.json in Resources */,
+				78D41EFD2D3A463400D93B9F /* StationList.graphql in Resources */,
+				78D41ECE2D3A3FD000D93B9F /* schema.graphqls in Resources */,
+				78D41ECA2D3A3D3800D93B9F /* apollo-ios-cli in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78D41F062D3A493D00D93B9F /* AuthorizationInterceptor.swift in Sources */,
+				78D41EF32D3A430A00D93B9F /* Network.swift in Sources */,
+				78D41F082D3A4A7700D93B9F /* NetworkInterceptorProvider.swift in Sources */,
+				78D41F042D3A484A00D93B9F /* AuthorizationKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,6 +605,36 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		78D41EFE2D3A467600D93B9F /* XCLocalSwiftPackageReference "GraphQLAPI" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = GraphQLAPI;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		78D41EC52D3A3BCE00D93B9F /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.16.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		78D41EC62D3A3BCE00D93B9F /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78D41EC52D3A3BCE00D93B9F /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		78D41EFF2D3A467600D93B9F /* GraphQLAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GraphQLAPI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 78D41E902D3A3A0F00D93B9F /* Project object */;
 }

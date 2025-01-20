@@ -1,0 +1,11 @@
+
+query StationList {
+  stationList {
+    id
+    address
+    city
+    owner {
+      name
+    }
+  }
+}
